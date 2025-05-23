@@ -1,0 +1,85 @@
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] ############################################################
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # Output Factory initiated (html5)
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # Building output for: Toc
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # URL /document/edit/407972
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # User: Nikki Tremann
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # Time: Sat, 24 May 2025 01:22:09 +0900
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] # Server: ip-10-10-42-41.ap-northeast-1.compute.internal
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] ############################################################
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] Group: custom
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] Type: html5
+[24/May/2025 01:22:09 Asia/Tokyo] [Info] Transformation: $user_dir/xsl/custom/layout-417371.xsl
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] File found: $user_dir/xsl/custom/layout-417371.xsl
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] ############################################################
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Building output for: html5
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Using stylesheet: $user_dir/xsl/custom/layout-417371.xsl
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Parameters for this build: []
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Environment variables for this build: {"use.relationship.child.topics":"0","image.size":"1","auto.image.size.attributes":"1","hide.missing.translations":"1","mark.non.approved.translations":"0"}
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Building output for languages: ["en"]
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Building multilang: no
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Building preview: no
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] ############################################################
+[24/May/2025 01:22:10 Asia/Tokyo] [Info] Using build directory: $local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] -- Generating source files
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] -- Propagating taxonomies: false
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] -- Source files have been generated
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] -- Publication has no unresolved dependencies.
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] Parsing processing instructions
+[24/May/2025 01:22:11 Asia/Tokyo] [Info] -- Generating source files complete.
+[24/May/2025 01:22:12 Asia/Tokyo] [Info] Localizing: publication-407972.xml
+[24/May/2025 01:22:12 Asia/Tokyo] [Info] Language: en
+[24/May/2025 01:22:12 Asia/Tokyo] [Info] Variable sets found: 0
+[24/May/2025 01:22:13 Asia/Tokyo] [Info] Images found: 32
+[24/May/2025 01:22:13 Asia/Tokyo] [Info] Inserting image links.
+[24/May/2025 01:22:13 Asia/Tokyo] [Info] Processing document: $local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5/tmp/publication-407972--en.xml
+[24/May/2025 01:22:14 Asia/Tokyo] [Info] Found 16 image(s).
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Profiling parameters: []
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Transformation: publication-407972--en.org.xml -> publication-407972--en.xml [profile.xsl]
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Transformation: publication-407972--en.xml -> publication-407972--en.xml [internal-xref.xsl]
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created copy: $user_dir/xsl/custom/layout-417371.xsl -> $user_dir/xsl/custom/6830a0b7a268f.xsl
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.page.xsl -> $user_dir/xsl/custom/6830a0b7a268f.page.xsl
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.index.xsl -> $user_dir/xsl/custom/6830a0b7a268f.index.xsl
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.toc.xsl -> $user_dir/xsl/custom/6830a0b7a268f.toc.xsl
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.page.xsl -> $user_dir/xsl/custom/6830a0b7a268f.page.xsl
+[24/May/2025 01:22:15 Asia/Tokyo] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.index.xsl -> $user_dir/xsl/custom/6830a0b7a268f.index.xsl
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-b7ebced3fb482221ff4def0fc6e0f316.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-e4ea2cc66581db059ee5e8c3ff4840a0.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-bf49e80c16870f1741deeb1f3eb605a1.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-d5e249630beb758c09b4ff8c7827fcd0.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-929e86bc4200bbe3bd70718e537fe16a.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-0739e0372e13869aea8eaf3ad77d47cb.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-749359e6d786cf7b1e71538d48d9b8ad.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-bd5cc2c217c89704be4f2268d6317263.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-0b11be698f22a6f7e12cd42fbac816db.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-58aab87780e72edbbe790c54e8036b2f.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-7060bda9b03409d0ac159f677777605e.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-c84603b6f2fea26128ef0d8bd0992645.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-7497654c7c21d9101d13bc0f82635865.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-9065d17240a2f4f00baaabf6013914f4.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-566eacb774931045522174ace511e6ea.jpg
+[24/May/2025 01:22:16 Asia/Tokyo] [Info] Image copied: en/image/img-73313fb18a05994ebab2900095e0ab31.jpg
+[24-May-2025 01:22:16 Asia/Tokyo] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
+[24-May-2025 01:22:16 Asia/Tokyo] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[24-May-2025 01:22:16 Asia/Tokyo] Copy file '$user_dir/xsl/custom/assets/layout-417371/682de9c38c33e.png' to '$local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5/out/css/image/corporate-logo.png'
+[24-May-2025 01:22:16 Asia/Tokyo] Copy file '$user_dir/xsl/custom/assets/layout-417371/682de9a5e10e5.svg' to '$local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5/out/css/image/portal-logo.svg'
+[24-May-2025 01:22:16 Asia/Tokyo] Copy file '$user_dir/xsl/custom/assets/layout-417371/6830a0476e673.js' to '$local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5/out/js/layout-custom-script.js'
+[24-May-2025 01:22:16 Asia/Tokyo] Copy file '$user_dir/xsl/custom/assets/layout-417371/682b367473873.ico' to '$local_tmp/production-6830a0b07e9051.93104967/407972-Toc-html5/out/favicon.ico'
+[24-May-2025 01:22:17 Asia/Tokyo] Post build HTML5
+[24/May/2025 01:22:17 Asia/Tokyo] [Info] Transformation: index-en.html -> toc-en.html [6830a0b7a268f.toc.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: achievement-studio.html -> achievement-studio.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: api.html -> api.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: adding-outcomes-to-a-set--for-administrators-.html -> adding-outcomes-to-a-set--for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: badge-grants--for-administrators-.html -> badge-grants--for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: creating-a-badge--for-administrators-.html -> creating-a-badge--for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: badge-claim-codes--for-administrators-.html -> badge-claim-codes--for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: admin-overview-of-achievement-studio---badges--for-administrators-.html -> admin-overview-of-achievement-studio---badges--for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: intro--what-is-an-api---for-administrators-.html -> intro--what-is-an-api---for-administrators-.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: badges.html -> badges.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: index-en.html -> index-en.html [6830a0b7a268f.page.xsl]
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Generating index page.
+[24/May/2025 01:22:18 Asia/Tokyo] [Info] Transformation: index.manifest -> index.html [6830a0b7a268f.index.xsl]
+[24/May/2025 01:22:19 Asia/Tokyo] [Info] # Took 9.373678 seconds to render.
