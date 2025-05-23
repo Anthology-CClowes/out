@@ -38,16 +38,20 @@ var feedbackLinkDict = {
 
 // Add custom footer dynamically
 document.addEventListener("DOMContentLoaded", function () {
-  const footer = document.createElement("footer");
-  footer.className = "custom-footer";
-
-  footer.innerHTML = `
-    <div class="footer-content">
-      <span>© 2025 Anthology</span> |
+  const div = document.createElement('div');
+  div.innerHTML = `
       <a href="https://www.anthology.com/trust-center/privacy-statement" target="_blank">Privacy Policy</a> |
       <a href="https://www.anthology.com/do-not-sell" target="_blank">Do Not Sell My Information</a>
-    </div>
-  `;
+  `
 
-  document.body.appendChild(footer);
+  const portalFooter = document.getElementsByClassName("portal-footer");
+  if(portalFooter.length) {
+    div.className = 'col-md-6';
+    portalFooter.item(0).firstChild.insertBefore(div, portalFooter.item(0).firstChild.lastChild);
+    return;
+  }
+
+  div.className = 'col-md-12';
+  const siteFooter = document.getElementsByClassName("site-footer").item(0);
+  siteFooter.appendChild(div);
 });

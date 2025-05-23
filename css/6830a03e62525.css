@@ -8653,13 +8653,15 @@ input[type=text]:focus {
 
 .portal-header .logo {
     height: 30px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-top: 32px;
 }
 
 @media (min-width:768px) {
     .portal-header .logo {
         margin-bottom: 0;
-        height: 40px
+        height: 40px;
+        margin-top: 0px;
     }
 }
 
@@ -9577,18 +9579,46 @@ input#portal-search-field {
 }
 
 .cc-btn {
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff !important; /* button background */
-  color: #041924 !important; /* button text color */
-  border: none;
-  padding: 10px 20px;
-  font-weight: 600;
-  border-radius: 4px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    text-decoration-line: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    white-space: nowrap;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    font-size: calc(1rem * 1.0);
+    line-height: calc(0.25rem * 9);
+    /* height: calc(0.25rem * 9) !important; */
+    padding-inline: calc(0.25rem * 4);
+    padding-block: calc(0.25rem * 2);
+    border-width: 0px !important;
 }
 
-.cc-btn:hover {
-  background-color: #e6b800 !important;
-  color: #000000 !important;
+.cc-allow {
+    background-color: oklch(99.4% 0 none) !important;
+    color: oklch(17.76% 0 none) !important;
+}
+
+.cc-allow:hover {
+    background-color: oklch(71.22% 0 none) !important;
+    color: oklch(17.76% 0 none) !important;
+}
+
+.cc-deny {
+    box-shadow: 0 0 #0000, inset 0 0 0 1px oklch(99.4% 0 none), 0 0 #0000, 0 0 #0000, 0 0 #0000;
+    transition-property: box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.cc-deny:hover {
+    box-shadow: 0 0 #0000, inset 0 0 0 2px oklch(99.4% 0 none), 0 0 #0000, 0 0 #0000, 0 0 #0000;
 }
 
 /* === Custom Footer Styles Injected by JS === */
